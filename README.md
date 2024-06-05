@@ -29,7 +29,6 @@ Your implementation must contain the following type definitions.
 #### of the gold to be dug up, a string representing the last action performed to reach this state, and the parent
 #### state. The parent state is the last state the robot was in before doing the last performed action. The initial
 #### state of the robot in the above grid is accordingly represented as: S (3,0) [(2,2),(1,2)] "" Null
-#### 1
 ## 3 Functions
 #### Your implementation must also contain the following functions. It is recommended to implement the
 #### functions in the order they are written below. You are not allowed to change the given type definitions
@@ -68,7 +67,6 @@ Your implementation must contain the following type definitions.
 #### Example(s)
 #### right (S (3,0) [(2,2),(1,2)] "" Null)
 #### = S (3,1) [(2,2),(1,2)] "right" (S (3,0) [(2,2),(1,2)] "" Null)
-#### 2
 ### 3.1.5 dig
 #### The function takes as input a state and returns the state resulting from digging up gold from the input
 #### state. Digging should not change the position of the robot, but removes the dug up from the list of gold
@@ -109,7 +107,6 @@ Your implementation must contain the following type definitions.
 #### only "up", "down", "left", "right", and "dig".
 #### Type: constructSolution :: MyState -> [String]
 #### Example(s)
-#### 3
 #### constructSolution (S (3,1) [] "dig" (S (3,1) [(3,1)] "right" (S (3,0) [(3,1)] "" Null)
 #### ))
 #### = ["right","dig"]
@@ -142,4 +139,3 @@ Your implementation must contain the following type definitions.
 #### function’s documentation above the function’s implementation.
 #### • It is the team’s full responsibility to successfully submit a valid .hs file before the project’s deadline
 #### using the following link: https://forms.gle/46JbQcgS4VEDBe5fA
-#### 4
